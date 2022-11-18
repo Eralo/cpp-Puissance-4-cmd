@@ -11,7 +11,7 @@ namespace controllers {
 	{
 	private:
 		Player* players;
-		int playerCount=0;
+		int playerCount=1;
 		bool gameOn = false, exit = false;
 		int Entry();
 		int width=7;
